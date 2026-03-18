@@ -233,13 +233,13 @@ In this task, you will use Delta tables to handle streaming data, leveraging the
 
     ```python
    # Write the stream to a delta table
-   delta_stream_table_path = 'Tables/iotdevicedata'
-   checkpointpath = 'Files/delta/checkpoint'
+   delta_stream_table_path = 'Tables/dbo/iotdevicedata'
+   checkpointpath = 'Files/delta'
    deltastream = iotstream.writeStream.format("delta").option("checkpointLocation", checkpointpath).start(delta_stream_table_path)
    print("Streaming to delta sink...")
     ```
 
-    ![](./Images/E3T4S5-1208.png)
+    ![](./Images/E3T2S4-1803.png)
 
 1. Add a new code cell by clicking on **+ Code (1)**. Add the following code **(2)** and click on the run cell icon **(3)**. This code queries the **IotDeviceData** table, which contains the device data from the streaming source. 
 
