@@ -402,7 +402,7 @@ In this task, you'll create a report to visualize your data findings. You'll sel
 
 2. Provide the Direct Lake semantic model name as **Lakehouse_<inject key="DeploymentID" enableCopy="false"/> (1)** and select **sales (2)** table from the list. Click on **Confirm (3)**.
 
-    ![](./Images/e1p2t8p2.png)
+    ![](./Images/semanticmodel_1.png)
 
 3. Go back to the **fabric-<inject key="DeploymentID" enableCopy="false"/> (1)** workspace from the left pane. Select recently created semantic model named as **Lakehouse_<inject key="DeploymentID" enableCopy="false"/> (2)**
 
