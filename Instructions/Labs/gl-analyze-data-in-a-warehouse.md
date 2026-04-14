@@ -112,7 +112,7 @@ A warehouse is a relational database in which you can define tables and other ob
 
    ![01](./Images/cop-fab-apr-ex4-g11.png)
 
-1. Use the **Refresh** button on the toolbar to refresh the view. Then in the **Explorer** pane, verify that the **dbo** schema in the data warehouse now contains the following four tables:
+1. Use the **Refresh** button on the toolbar to refresh the view. Then, in the **Explorer** pane, verify that the **dbo** schema in the data warehouse now contains the following four tables:
 
     - **DimCustomer**
     - **DimDate**
