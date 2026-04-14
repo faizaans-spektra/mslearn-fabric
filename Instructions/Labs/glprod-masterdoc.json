@@ -19,7 +19,7 @@
         "Order": 4
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/mslearn-fabric/refs/heads/main/Instructions/Labs/gl-Exercise-4-Data-Warehouse-Analyze-Data-in-a-Warehouse-with-Fabric-Copilot.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/mslearn-fabric/main/Instructions/Labs/gl-analyze-data-in-a-warehouse.md",
         "Order": 5
       }
     ]
