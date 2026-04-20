@@ -75,16 +75,26 @@ In many scenarios, the data you need to work within your lakehouse may be stored
 
 In this task, you will create a data pipeline in Microsoft Fabric to ingest data by configuring a **Copy Data** activity, which extracts data from a specified source and loads it into your lakehouse.  
 
-1. On the **Home** page, select **Get data (1)**, and then choose **New copy job (2)**.
+1. Select **Workspaces (1)**, and then choose your workspace **fabric-<inject key="DeploymentID" enableCopy="false"/> (2)**.
 
-    ![](./Images/cop-fab-apr-ex2-g1.png)
+    ![](./Images/cop-fab-apr-ex1-g8.png)
 
-    > **Note:** The **Copy job** experience creates a **data pipeline** in the background with a **Copy Data** activity, enabling you to perform data ingestion using a simplified interface.
+1. In your workspace, select **+ New item**.
 
-1. In the **New Copy job** pane, enter **Ingest Sales Data Pipeline (1)** in the **Name** field, and then select **Create (2)**.
+    ![](./Images/cop-fab-apr-ex1-g1.png)
 
-    ![](./Images/cop-fab-apr-ex2-g2.png)
+1. In the right pane, search for **Pipeline (1)** in the search bar, and select **Pipeline (2)** under the **Get data** section.
+
+     ![](./Images/cop-fab-apr-ex-cor-g1.png)
+
+1. Create a new data pipeline by entering the name **Ingest Sales Data Pipeline (1)**, then click **Create (2)** to proceed.
    
+    ![](./Images/cop-fab-apr-ex-cor-g2.png)
+   
+1. If the **Copy data** assistant doesn't open automatically, select **Copy data assistant** in the pipeline editor page.
+
+    ![](./Images/cop-fab-apr-ex-cor-g3.png)
+
 1. In the **Choose data source** step, search for **http (1)**, and then select **Http (2)**.
 
     ![](./Images/cop-fab-apr-ex2-g3.png)
@@ -120,34 +130,66 @@ In this task, you will create a data pipeline in Microsoft Fabric to ingest data
 
     ![](./Images/cop-fab-apr-ex2-g8.png)
 
+1. On the **Choose data destination** page, click on **OneLake catalog (1)** from the top menu bar, then select the lakehouse named **fabric_lakehouse_<inject key="DeploymentID" enableCopy="false"/> (2)**.
+
+    ![](./Images2/3/t1-9.png)
+     
 1. In the **Settings** step, ensure **Full copy (1)** is selected, choose **Files (2)** under **Destination root folder**, and then select **Next (3)**.
 
-    ![](./Images/cop-fab-apr-ex2-g10.png)
+    ![](./Images/cop-fab-apr-ex-cor-g6.png)
 
 1. In the **Map to destination** step, select **Browse (1)**, choose **new_data (2)**, and then select **OK**.
 
-    ![](./Images/cop-fab-apr-ex2-g62.png)
+    ![](./Images/cop-fab-apr-ex-cor-g7.png)
 
-1. In the **Map to destination** step, verify **Folder path (1)** is set to **new_data**, **File name (2)** is **sales.csv**, and then select **Next (3)**.
+1. In the **Map to destination** step, verify **Folder path (1)** is set to **new_data/**, enter **sales.csv** in the **File name (2)** field, and expand **File format settings (3)**.
 
-    ![](./Images/cop-fab-apr-ex2-g21.png)
+    ![](./Images/cop-fab-apr-ex-cor-g8.png)
 
 1. In the **Map to destination** step, set the following file format options:
 
-    - **File format (1):** DelimitedText  
-    - **Column delimiter (2):** Comma (,)  
-    - **Row delimiter (3):** Line feed (\n)  
-    - Then select **Next (4)**.
+    - **File format:** DelimitedText  
+    - **Column delimiter (1):** Comma (,)  
+    - **Row delimiter (2):** Line feed (\n)  
+    - Then select **Next (3)**.
 
-        ![](./Images/cop-fab-apr-ex2-g22.png)
+        ![](./Images/cop-fab-apr-ex-cor-g9.png)
 
-1. In the **Review + save** step, review the summary, and then select **Save + Run**.
+1. On the **Review + save** page, review the copy summary to verify all source and destination settings, and then click on **Save** to initiate the data copy process.
 
-    ![](./Images/cop-fab-apr-ex2-g23.png)
+    ![](./Images/cop-fab-apr-ex-cor-g10.png)
 
-1. When the pipeline starts to run, monitor the status in the **Results** pane, use the **Refresh** icon to update the status, and wait until it shows **Succeeded**.
+1. After executing the copy operation, a new pipeline containing the **Copy job** activity is automatically created, as shown in the diagram.
 
-    ![](./Images/cop-fab-apr-ex2-g24.png)
+    ![](./Images2/3/E3T1S15.png)
+
+1. Select the **Copy job (1)** activity, and then choose the **Settings (2)** tab.
+
+    ![](./Images/cop-fab-apr-ex-cor-g11.png)
+
+1. In the **Settings (1)** tab, expand the **Connection (1)** dropdown and select **Browse all (2)**.
+
+    ![](./Images/cop-fab-apr-ex-cor-g12.png)
+
+1. On the **Choose a data source to get started** page, select **Copy job**
+
+    ![](./Images2/3/E3T1S17.png)
+
+1. On the **Connect data source** page, select **Create new connection (1)** and in the **Authentication kind**, select **Organizational account (2)** then click on **Sign in (3)**
+
+    ![](./Images/cop-fab-apr-ex-cor-g13.png)
+
+1. In the pop-up select the provided **Email: <inject key="AzureAdUserEmail"></inject>** then click on **Connect**
+
+    ![](./Images/cop-fab-apr-ex-cor-g14.png)
+
+1. Click on the **Home (1)** tab, save the pipeline using the **Save (2)** icon, then execute it by clicking **Run (3)** and wait for all activities to complete.
+
+    ![](./Images2/3/E3T1S19.png)
+
+1. Once the pipeline is running, monitor its execution status by selecting the **Output (1)** tab below the pipeline designer. Click the refresh **↻ (2)** icon to update the status, and wait for the pipeline to show as Succeeded.
+
+    ![](./Images2/3/E3T1S21.png)
 
 1. Select **Workspaces (1)**, and then choose your workspace **fabric-<inject key="DeploymentID" enableCopy="false"/> (2)**.
 
@@ -156,6 +198,12 @@ In this task, you will create a data pipeline in Microsoft Fabric to ingest data
 1. In your workspace, select **Lakehouse_<inject key="DeploymentID" enableCopy="false"/>**.
 
     ![](./Images/cop-fab-apr-ex2-g26.png)
+
+1. In the **Explorer** pane, click the **ellipsis (...) (1)** next to the **Files** folder, and  select **Refresh (2)** to verify that the folder **new_data (3)** contains the copied file **sales.csv (4)**.
+
+     ![](./Images2/lab4-11-5.png)
+
+     ![](./Images2/lab4-11-5.1.png)
 
 1. In the **Lakehouse_<inject key="DeploymentID" enableCopy="false"/>** pane, expand **Files (1)**, select the **new_data (2)** folder, and verify the **sales.csv (3)** file.
 
@@ -266,6 +314,14 @@ In this task, you will create a notebook within Microsoft Fabric to develop and 
 
     ![](./Images/cop-fab-apr-ex2-g38.png)
 
+1. Select **Workspaces (1)**, and then choose your workspace **fabric-<inject key="DeploymentID" enableCopy="false"/> (2)**.
+
+    ![](./Images/cop-fab-apr-ex2-g25.png)
+
+1. In the workspace list, select **Notebook**.
+
+    ![](./Images/cop-fab-apr-ex-cor-g15.png)
+
 1. In the notebook, select the **Save** icon.
 
     ![](./Images/cop-fab-apr-ex2-g39.png)
@@ -283,6 +339,14 @@ In this task, you will create a notebook within Microsoft Fabric to develop and 
 In this task, you will utilize the SQL analytics endpoint automatically created for your lakehouse to execute SQL queries on your defined tables.  
 
 When you create a lakehouse and define tables in it, an SQL endpoint is automatically created through which the tables can be queried using SQL `SELECT` statements.
+
+1. Select **Workspaces (1)**, and then choose your workspace **fabric-<inject key="DeploymentID" enableCopy="false"/> (2)**.
+
+    ![](./Images/cop-fab-apr-ex2-g25.png)
+
+1. In your workspace, select **Lakehouse_<inject key="DeploymentID" enableCopy="false"/>**.
+
+    ![](./Images/cop-fab-apr-ex2-g26.png)
 
 1. At the top-right, select the **Lakehouse (1)** dropdown, choose **SQL analytics endpoint (2)**, and wait for the SQL endpoint to open.
 
@@ -433,11 +497,21 @@ In this task, you will utilize Fabric Copilot to analyze your report, enabling y
 
     > **Note:** The response format may vary as it is generated by Copilot.
 
-1. Provide another prompt to Copilot on what insights will be valuable from the data we have to double the product's sales** and wait for the result. It sometimes takes 2 to 5 min.
+1. In Copilot, enter the following prompt, submit it, and wait 2–5 minutes for the results to be generated.
 
-1. Once you receive output from the above prompt, read the output and provide another input to Copilot for all the products**. It will provide potential insights and enhancements for the product's sales. 
+    ```
+    What insights from the available data would be most valuable to help double the product's sales?
+    ```
+
+1. After reviewing the output, enter the following prompt in Copilot, submit it, and wait for the results to be generated.
+
+    ```
+    for all the products
+    ```
 
    ![New dataflow.](./Images/f31.png)
+
+    > **Note:** The response format may vary as it is generated by Copilot.
 
 1. You can also try different input prompts to analyze the data more efficiently with the help of Copilot.
 

@@ -149,6 +149,10 @@ A relational data warehouse typically consists of *fact* and *dimension* tables.
 
     ![](./Images/cop-fab-apr-ex4-g17.png)
 
+1. In the top-right corner, select **Viewing (1)**, and then choose **Editing (2)**.
+
+    ![](./Images/cop-fab-apr-ex2-g51.png)
+
 1. Arrange the tables in the model view by dragging them so they are laid out clearly as shown.
 
     ![](./Images/cop-fab-apr-ex4-g18.png)
