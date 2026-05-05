@@ -176,7 +176,11 @@ In this task, you'll create a pipeline to automate data workflows. Using the Cop
    - File name: **sales.csv (4)**
 
      ![08](./Images/img-08.png)
-   
+
+     **Note:** Expand the file format settings.
+
+     ![08](./Images/E1T1S11.png)
+
    - File format: **DelimitedText (6)**
    - Expand the **File format settings**
    - Column delimiter: **Comma (,) (7)**
@@ -313,7 +317,7 @@ In this task, you'll create a Notebook to document your data analysis. You'll se
 
     > **Note:** The **sales** table will be visible only after the cell execution is completed.
 
-    ![.](./Images/E1T5S12-1108.png)
+    ![.](./Images/E1T5S12.png)
 
 1. Navigate back to the **Notebook** on the left pane and use the ⚙️ **Settings (1)** icon at the top to view the notebook settings. Then, set the **Name** of the notebook to **Load Sales Notebook (2)** and close the settings pane.
 
@@ -372,9 +376,9 @@ In this task, you'll create a visual query in Power BI using Power Query. Start 
 
     ![Account-manager-start](./Images/E1T7S3.1-1108.png)
 
-1. Click on **+ (1)**, in the **Transform table** menu, select **Group by (2)**.
+1. Click on **Transform table (1)** menu, select **Group by (2)**.
 
-    ![](./Images/p1t7p4.png)
+    ![](./Images/E1T7S4.png)
 
 1. Then group the data by using the following **Basic** settings.
    
