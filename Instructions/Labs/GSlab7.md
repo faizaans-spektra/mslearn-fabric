@@ -70,7 +70,7 @@ The architecture for this lab involves the following key components:
 
 Once you're ready to dive in, your virtual machine and lab guide will be right at your fingertips within your web browser.
 
-![08](./Images/Gs001.png) 
+![08](./Images/img-01.png) 
 
 ## Virtual Machine & Lab Guide
 
@@ -82,7 +82,7 @@ In the integrated environment, the lab VM serves as the designated workspace, wh
 
 To get a better understanding of your lab resources and credentials, navigate to the **Environment** tab.
 
-![08](./Images/GS2.png)
+![08](./Images/img-02.png)
    
 ## Utilizing the Split Window Feature
  
@@ -144,6 +144,6 @@ Learner Support Contacts:
 
 Now, click on **Next** from the lower right corner to move on to the next page. 
 
-![Launch Azure Portal](./Images/GS004.png) 
+![Launch Azure Portal](./Images/img-03.png) 
 
 ### Happy Learning!!
