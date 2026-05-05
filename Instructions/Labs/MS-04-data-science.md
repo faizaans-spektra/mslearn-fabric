@@ -165,7 +165,7 @@ In this task, you will train a machine learning model to predict customer churn 
        mlflow.log_param("estimator", "LogisticRegression")
     ```
     
-    ![](./Images/E4T4S4-1208.png)
+    ![](./Images/E4T4S4.png)
 
 1. Add a new code cell in the notebook using **+ Code (1)**. Then, in the new cell, add the following code **(2)** and click on the run cell icon **(3)**. This code trains a classification model using a Decision Tree Classifier. Parameters, metrics, and artifacts are automatically logged with MLflow. Additionally, you're logging a parameter called `estimator`, with the value `DecisionTreeClassifier`.
 
@@ -182,7 +182,7 @@ In this task, you will train a machine learning model to predict customer churn 
 
     >**Note:** If the node fails, attempt to re-run the previous node and then execute the existing node.
 
-    ![](./Images/E4T4S5-1208.png)
+    ![](./Images/E4T4S5.png)
 
 ## Task 5: Use MLflow to search and view your experiments
 
@@ -264,13 +264,13 @@ In this task, you will explore your experiments in Microsoft Fabric, which track
    
    - Select the **View (1)** tab.
       
-   - Select **Run list (2)**.
+   - Select **List (2)**.
       
    - Select the **two latest runs (3)** by checking each box. As a result, your last two runs will be compared to each other in the **Performance** pane. By default, the metrics are plotted by run name.
       
    - Select the **&#128393;** **(Edit) (4)** button of the graph visualizing the accuracy for each run. 
 
-      ![](./Images/p5t6p3.png)
+      ![](./Images/E4T6S4.png)
 
 1. In the Personalize pane, edit the following settings:
 
@@ -301,9 +301,9 @@ In this task, you will save the best-performing machine learning model after com
 
 1. In the experiment overview, ensure the **View** tab is selected.
 
-1. Select **Run details (1)**, and under **Save run as an ML model** box, select **Save (2)**.
+1. Select **Details (1)**, and under **Save run as an ML model** box, select **Save (2)**.
 
-   ![](./Images/p5t7p2.png)
+   ![](./Images/E4T7S2.png)
 
 1. Select **Create a new model (1)** in the newly opened pop-up window.
 

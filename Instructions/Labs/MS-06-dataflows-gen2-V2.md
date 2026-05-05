@@ -27,8 +27,7 @@ In this task, you will create a Dataflow (Gen2) to efficiently ingest and transf
 1. Enter the below-mentioned details to create the Dataflow and click on **Create (3)**.
 
    - **Name:** Keep as default **(1)**
-   - **Enable Git integration, deployment pipelines, and Public API Scenarios:** Uncheck **(2)**
-
+   
       ![](./Images/E6T1S3.png)
 
    After a few seconds, the Power Query editor for your new dataflow will open.
@@ -110,9 +109,9 @@ In this task, you’ll add a data destination for the Dataflow to determine wher
 
    ![](./Images/e6p7t2p6.png)
 
-1. Select **Publish** to publish the dataflow. Then wait for the **Dataflow** to be created in the workspace.
+1. Select **Save and close** to save the dataflow. Then wait for the **Dataflow** to be created in the workspace.
 
-   ![](./Images/p7t2p7.png)
+   ![](./Images/E6T2S7.png)
 
 1. After publishing, you will be taken back to the home page of the **Fabric portal**. Wait for a few minutes for the Publish to complete, then open the **Dataflow**. 
 
@@ -134,7 +133,7 @@ In this task, you’ll add a dataflow to a pipeline to streamline the data proce
 
 1. Set the Name as **Load Orders pipeline (1)** and click on **Create (2)**. This will open the pipeline editor.
 
-   ![](./Images/Flow10.png)
+   ![](./Images/E6T3S3.png)
 
    > **Note:** If the Copy Data wizard opens automatically, close it!
 
