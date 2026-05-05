@@ -97,7 +97,7 @@ In this task, you will create a notebook to work with data in Apache Spark. Note
 
 1. Select **fabric_lakehouse<inject key="DeploymentID" enableCopy="false"/> (1)** from the options and click on **Add (2)**.
     
-    ![](./Images/img-16.png)
+    ![](./Images/E5T2S5.png)
 
     > **Note:** If required, reload the page to get the files and folders.
 
