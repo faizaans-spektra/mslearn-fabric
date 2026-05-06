@@ -224,7 +224,9 @@ In this task, you will use Delta tables to handle streaming data, leveraging the
    ```
 
     ![](./Images/E3T4S2-1208.png)
-
+    
+    ![](./Images/E3T4S2.png)
+          
 1. Ensure the message *Source stream created...* is printed. The code you just ran has created a streaming data source based on a folder to which some data has been saved, representing readings from hypothetical IoT devices.
 
     ![](./Images/E3T4S3-1208.png)
