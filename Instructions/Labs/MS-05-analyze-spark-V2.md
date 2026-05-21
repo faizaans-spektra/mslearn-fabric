@@ -6,7 +6,7 @@
 
 Contoso Retail’s data engineering team needs to process and analyze large volumes of sales order data using Apache Spark in Microsoft Fabric. To support analytics workloads, the team plans to structure, transform, store, query, and visualize sales data using Spark notebooks and Lakehouse capabilities.
 
-In this exercise, you will help Contoso create a Lakehouse, load sales order files into Spark dataframes, perform data exploration and transformations, save processed data in Parquet and Delta formats, query data using Spark SQL, and visualize business insights using Spark charts, matplotlib, and seaborn.
+In this exercise, you will help Contoso create a Lakehouse, load sales order files into Spark DataFrames, perform data exploration and transformations, save processed data to Parquet and Delta formats, query data using Spark SQL, and visualize business insights using Spark charts, Matplotlib, and Seaborn.
 
 ## 📖 Overview
 
@@ -36,7 +36,7 @@ In this exercise, you will be able to complete the following tasks:
 
 ## Task 1: Create a lakehouse and upload files
 
-In this task, you will create a lakehouse to organize and analyze your data files. After setting up your workspace, you'll switch to the Data Engineering experience in the portal to initiate the creation of the data lakehouse.
+In this task, you will create a lakehouse to organize and analyze your data files. After setting up your workspace, you'll switch to the Data Engineering experience in the portal to initiate the data lakehouse creation.
 
 1. In the left pane, navigate to **Workspaces (1)** icon and select **fabric-<inject key="DeploymentID" enableCopy="false"/> (2)**. 
 
