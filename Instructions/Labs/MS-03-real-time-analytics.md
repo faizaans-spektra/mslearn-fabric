@@ -127,7 +127,7 @@ In this task, you will use Kusto Query Language (KQL) to analyze the sales data 
    | sort by Item asc
     ```
 
-1. Run the query and review the results, which should contain the total net revenue for each product between January 1st and December 31st 2020, in ascending order of product name.
+1. Run the query and review the results, which should contain the total net revenue for each product between January 1st and December 31st, 2020, in ascending order of product name.
 
     ![](./Images/E3T2S8-1208.png)
 
@@ -149,7 +149,7 @@ In this task, you will create a Power BI report using your KQL Queryset as the f
   
 1. In the report editor, from the **Data** pane, expand **Kusto Query Result** and select the checkboxes of **Item** and **TotalNet Revenue (1)** fields.
 
-1. On the report design canvas, select the table visualization that has been added and then in the **Visualizations** pane, select **Clustered bar chart (2)**.
+1. On the report design canvas, select the table visualization that has been added, and then in the **Visualizations** pane, select **Clustered bar chart (2)**.
 
     ![Screenshot of a report from a KQL query.](./Images/E3T3S4-1208.png)
 
@@ -161,9 +161,9 @@ In this task, you will create a Power BI report using your KQL Queryset as the f
 
     ![](./Images/03/E3T3S5.png)
 
-1. If you are unable to choose the workspace as instructed above please follow the below steps below other wise you can skip to step 7:
+1. If you are unable to choose the workspace as instructed above, please follow the steps below other wise you can skip to step 7:
 
-    - When you save the report,In the **Just a few details first** pane, enter the file name as **Revenue by Item (1)** and click **Continue (2)** to save the report in Power BI.
+    - When you save the report, in the **Just a few details first** pane, enter the file name as **Revenue by Item (1)** and click **Continue (2)** to save the report in Power BI.
 
         ![](./Images/e3p4t3p4.png)
 
@@ -273,7 +273,7 @@ In this task, you will use Delta tables to handle streaming data, leveraging the
     > LOCATION 'Tables/dbo/iotdevicedata';
     > ```
 
-    > Once the table is created, re-run the previous step : `SELECT * FROM IotDeviceData;`
+    > Once the table is created, re-run the previous step: `SELECT * FROM IotDeviceData;`
 
 1. Add a new code cell by clicking on **+ Code**. Add the following code and click on the run cell icon. This code writes more hypothetical device data to the streaming source.
 
@@ -312,7 +312,7 @@ In this task, you will use Delta tables to handle streaming data, leveraging the
 
 1. Click the **Stop** icon in the top menu bar to halt the notebook.
 
-    > **Note:** Make sure the session is stopped, otherwise the new notebooks doesn't work.
+    > **Note:** Make sure the session is stopped; or the new notebooks won't work.
 
     ![](./Images/03/E3T4S9-2005.png)
 
