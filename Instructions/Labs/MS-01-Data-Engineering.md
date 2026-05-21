@@ -61,7 +61,7 @@ In this task, you will create a Fabric workspace. The workspace will contain all
 
     - **Name:** Enter **fabric-<inject key="DeploymentID" enableCopy="false"/> (1)**
 
-        >Note: The name may appear as a space betweend **fabric-** and the **unique ID**, but ideally it does not have any spaces. Please make sure to remove any spaces while entering the name.
+        >Note: The name may appear as a space between **fabric-** and the **unique ID**, but ideally, it does not have any spaces. Please make sure to remove any spaces while entering the name.
 
     - Expand the **Advanced (2)** section.
 
@@ -176,7 +176,7 @@ In this task, you'll create a pipeline to automate data workflows. Using the Cop
    
 1. Wait for the data to be sampled, then verify the following settings:
 
-    > **Note:** Click anywhere on the Choose data window, to enable the view. 
+    > **Note:** Click anywhere on the Choose data window to enable the view. 
 
    - **File format:** DelimitedText **(1)**
    - **Column delimiter:** Comma (,) **(2)**
