@@ -32,7 +32,7 @@ In this task, you will create a Dataflow (Gen2) to efficiently ingest and transf
 
    ![](./Images/06/E6T1S2-2005.png)
    
-1. Keep as default **(1)** and click on **Create (2)**. After a few seconds, the Power Query editor for your new dataflow will open.
+1. Keep as default **(1)** and click on **Create (2)**. After a few seconds, the Power Query editor for your new data flow will open.
 
    ![](./Images/E6T1S3.png)
 
@@ -151,7 +151,7 @@ In this task, you’ll add a dataflow to a pipeline to streamline the data proce
 
    ![](./Images/p7t3p4.png)
 
-1. With the new **Dataflow1** activity selected, go to the **Settings (1)** tab in the bottom. In the **Workspace** drop-down list, choose **fabric-<inject key="DeploymentID" enableCopy="false"/> (2)** and in **Dataflow** drop-down list, select **Transform Orders Dataflow (3)** (the data flow you created previously).
+1. With the new **Dataflow1** activity selected, go to the **Settings (1)** tab in the bottom. In the **Workspace** drop-down list, choose **fabric-<inject key="DeploymentID" enableCopy="false"/> (2)** and in the **Dataflow** drop-down list, select **Transform Orders Dataflow (3)** (the data flow you created previously).
 
    ![Empty data pipeline.](./Images/E6T3S5-1208.png)
    
@@ -183,12 +183,8 @@ In this exercise, you:
 
 ### 🎉 You have successfully completed the Hands-on lab.
 
-By completing this hands-on lab, you have successfully implemented an end-to-end analytics and data processing solution using Microsoft Fabric for Contoso Retail. Throughout the lab, you worked through practical data engineering, analytics, and reporting tasks that closely align with real-world enterprise data workflows.
+By completing this hands-on lab, you have successfully implemented an end-to-end analytics and data processing solution using Microsoft Fabric for Contoso Retail. Throughout the lab, you worked through practical data engineering, analytics, and reporting tasks that closely align with real-world enterprise data workflows. You helped Contoso Retail establish a centralized analytics environment by creating workspaces, Lakehouses, and data warehouses to organize and manage business data efficiently. You automated data ingestion using pipelines and Dataflow Gen2, transformed and processed sales data using notebooks and Apache Spark, and enabled structured analysis through SQL, semantic models, and Power BI reports.
 
-You helped Contoso Retail establish a centralized analytics environment by creating workspaces, Lakehouses, and data warehouses to organize and manage business data efficiently. You automated data ingestion using pipelines and Dataflow Gen2, transformed and processed sales data using notebooks and Apache Spark, and enabled structured analysis through SQL, semantic models, and Power BI reports.
-
-You also explored Real-Time Analytics using KQL to query operational data, worked with Delta tables and streaming data scenarios, and trained machine learning models using notebooks and MLflow to compare and track model performance. Additionally, you created visualizations and reports that support business analysis and data-driven decision-making.
-
-This lab demonstrated how Microsoft Fabric can unify data ingestion, transformation, analytics, machine learning, and reporting capabilities within a single platform. The tasks performed in this lab reflect common real-world responsibilities of data engineers, data analysts, and analytics teams working with enterprise-scale data solutions.
+You also explored Real-Time Analytics using KQL to query operational data, worked with Delta tables and streaming data scenarios, and trained machine learning models using notebooks and MLflow to compare and track model performance. Additionally, you created visualizations and reports that support business analysis and data-driven decision-making. This lab demonstrated how Microsoft Fabric can unify data ingestion, transformation, analytics, machine learning, and reporting capabilities within a single platform. The tasks performed in this lab reflect common real-world responsibilities of data engineers, data analysts, and analytics teams working with enterprise-scale data solutions.
 
 
