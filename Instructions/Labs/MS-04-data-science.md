@@ -84,7 +84,7 @@ In this task, you will create a notebook to facilitate model training and experi
 
 In this task, you will load data into a dataframe to prepare for model training. Dataframes in Spark, akin to Pandas dataframes in Python, offer a structured way to work with data in rows and columns, enabling efficient data manipulation and analysis.
 
-1. In the Explorer pane, Click **Add data items (1)** drop-down under explorer and select **From OneLake catalog (2)** from the drop-down.
+1. In the Explorer pane, click **Add data items (1)** drop-down under explorer and select **From OneLake catalog (2)** from the drop-down.
 
     ![](./Images/01/E1T5S5.png)  
 
@@ -120,7 +120,7 @@ In this task, you will load data into a dataframe to prepare for model training.
 
     > **Note:** Since this is the first time you've run any Spark code in this session, the Spark pool must be started. This means that the first run in the session can take a minute or so to complete. Subsequent runs will be quicker.
 
-    > **Note:** **If you face any error stating **"Too many Requests for Capacity with error code 430"(1)**, navigate to **Monitor(2)** section to see if there are any ongoing spark jobs running if yes we can wait for it to finish or stop the process.**
+    > **Note:** **If you face any error stating **"Too many Requests for Capacity with error code 430"(1)**, navigate to **Monitor(2)** section to see if any ongoing spark jobs are running. If yes, we can wait for it to finish or stop the process.**
 
     ![](./Images/E4T3S7i.png)
 
