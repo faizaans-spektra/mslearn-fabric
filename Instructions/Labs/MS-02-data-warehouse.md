@@ -107,7 +107,7 @@ In this task, you will create database tables by defining their structure with a
 
      ![](./Images/p2t2p12.png)
 
-1. Use the **Refresh** button on the toolbar to refresh the view. Then in the **Explorer** pane, verify that the **dbo** schema in the data warehouse now contains the following four tables:
+1. Use the **Refresh** button on the toolbar to refresh the view. Then, in the **Explorer** pane, verify that the **dbo** schema in the data warehouse now contains the following four tables:
    
     - **DimCustomer**
     - **DimDate**
@@ -238,7 +238,7 @@ In this task, you will query data warehouse tables using SQL to retrieve and ana
 
 In this task, you will create a view in the data warehouse to encapsulate SQL logic for easier querying and data abstraction. A Microsoft Fabric data warehouse offers similar capabilities to relational databases, allowing you to create views and stored procedures to streamline complex queries and improve data access efficiency.
 
-1. Modify and Run the query you created previously as follows to create a view (note that you need to remove the ORDER BY clause to create a view).
+1. Modify and run the query you created previously as follows to create a view (note that you need to remove the ORDER BY clause to create a view).
 
     ```SQL
    CREATE VIEW vSalesByRegion
@@ -319,7 +319,7 @@ In this task, you will visualize your data from a single query or your data ware
 
     ![](./Images/p2t3p5.png)
 
-1. Hide the following columns in your Fact and Dimension tables that are not necessary to create a report. Note that this does not remove the columns from the model; it simply hides them from view on the report canvas. Right click on the column name and select **Hide in report view**.
+1. Hide the following columns in your Fact and Dimension tables that are not necessary to create a report. Note that this does not remove the columns from the model; it simply hides them from view on the report canvas. Right-click on the column name and select **Hide in report view**.
    
     - From FactSalesOrder
         - **SalesOrderDateKey**
